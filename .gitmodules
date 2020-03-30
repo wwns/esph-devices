@@ -1,0 +1,3 @@
+[submodule "sdk/esp-open-rtos"]
+	path = sdk/esp-open-rtos
+	url = https://github.com/SuperHouse/esp-open-rtos.git
