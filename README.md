@@ -1,9 +1,10 @@
-[ESPH for ESP8266/8285 Wiki pages ](https://github.com/wwns/esph-devices/wiki) |
+[ESPH for ESP8266/8285 Wiki pages ](https://github.com/wwns/esph-devices/wiki) | 
 -------------------------------------------------------------------------------|
 
 
  ESP8266/ESP8285 microcontroller 
 |--------------------------------
+[![Release](https://img.shields.io/github/v/tag/wwns/esph?color=red&label=release)](https://github.com/wwns/esph/releases)
 [![Release](https://img.shields.io/github/v/tag/wwns/esph?color=blue&label=release)](https://github.com/wwns/esph/releases)
 [![GitHub download](https://img.shields.io/github/downloads/wwns/esph/total.svg)](https://github.com/wwns/esph/releases/latest)
 
