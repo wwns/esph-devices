@@ -1052,7 +1052,7 @@ void homekit_server_on_pair_setup(client_context_t *context, const byte *data, s
 
             crypto_srp_init(
                 context->server->pairing_context->srp,
-                "Pair-Setup", "202-22-021"
+                "Pair-Setup", "202-02-021"
             );
 
             if (context->server->pairing_context->public_key) {

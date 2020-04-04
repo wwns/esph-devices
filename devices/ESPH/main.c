@@ -2640,8 +2640,8 @@ void delayed_sensor_starter_task(void *args) {
 
 homekit_characteristic_t name = HOMEKIT_CHARACTERISTIC_(NAME, NULL);
 homekit_characteristic_t serial = HOMEKIT_CHARACTERISTIC_(SERIAL_NUMBER, NULL);
-homekit_characteristic_t manufacturer = HOMEKIT_CHARACTERISTIC_(MANUFACTURER, "Wieslaw.W aka WwNs");
-homekit_characteristic_t model = HOMEKIT_CHARACTERISTIC_(MODEL, "WwNs ESPH");
+homekit_characteristic_t manufacturer = HOMEKIT_CHARACTERISTIC_(MANUFACTURER, "Wieslaw Weglowski");
+homekit_characteristic_t model = HOMEKIT_CHARACTERISTIC_(MODEL, "ESPH-Device");
 homekit_characteristic_t identify_function = HOMEKIT_CHARACTERISTIC_(IDENTIFY, identify);
 homekit_characteristic_t firmware = HOMEKIT_CHARACTERISTIC_(FIRMWARE_REVISION, FIRMWARE_VERSION);
 
