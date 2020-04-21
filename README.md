@@ -4,8 +4,8 @@
 
  ESP8266/ESP8285 microcontroller 
 |--------------------------------
-[![Release](https://img.shields.io/github/v/tag/wwns/esph?color=blue&label=release)](https://github.com/wwns/esph/releases)
-[![GitHub download](https://img.shields.io/github/downloads/wwns/esph/total.svg)](https://github.com/wwns/esph/releases/latest)
+[![Release](https://img.shields.io/github/v/tag/wwns/esph?style=for-the-badge&logo=appveyor&color=blue&label=release)](https://github.com/wwns/esph/releases)
+[![GitHub download](https://img.shields.io/github/downloads/wwns/esph/total.svg?style=for-the-badge&logo=appveyor)](https://github.com/wwns/esph/releases/latest)
 
 * Library:
 
