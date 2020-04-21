@@ -22,7 +22,7 @@ non-commercial use and that will not be distributed or sold.
 
 
 * Library:
-  * Project library [HomeKit Accessory Protocol ](https://developer.apple.com/support/homekit-accessory-protocol/) 
+  * Project library [HomeKit Accessory Protocol ](https://developer.apple.com/homekit/) 
   
   * Project library [RavenSystem-esp-homekit-devices](https://github.com/RavenSystem/esp-homekit-devices) 
 
