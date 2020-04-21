@@ -705,7 +705,7 @@ static void wifi_config_sta_connect_timeout_callback(void *arg) {
 
 bool wifi_config_connect() {
     char *wifi_ssid = NULL;
-    sysparam_set_string("ota_repo", "1.0.2");
+    sysparam_set_string("ota_repo", "1.0.3");
     
     sysparam_get_string("wifi_ssid", &wifi_ssid);
     

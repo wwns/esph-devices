@@ -1,57 +1,60 @@
-<!-- part HTML_SETTINGS_HEADER --><!DOCTYPE html><html><head><title>ESPH</title><style type="text/css">
-html,input,textarea{font-size:38px;font-family:Arial;}
-h1{font-size:120%;text-align:center;}
-footer{margin-left:10px;font-size:20px;}
-body .container{width:22em;margin:0 auto;padding:0.5em;}
-label{display:block;}
-input[type=text],input[type=password]{width:100%;box-sizing:border-box;}
+<!-- part HTML_SETTINGS_HEADER --><!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><title>ESPH</title><style type="text/css">
+html{font-size:4.5vw;font-family:Arial;}
+input{font-size:4vw;font-family:Arial;}
+textarea{font-size:4vw;font-family:Arial;}
+h1{font-size:100%;text-align:center;}
+footer{margin-left:10px;font-size:3vw;}
+body .container{background-color:black;color:white;margin:auto;padding:0.5em;}
+label{margin-left:11vw;display:block;}
+input[type=text],input[type=password]{margin-left:10vw;width:80%;height:7vw;box-sizing:border-box;}
 input[type=checkbox]{transform:scale(1.8);}
-textarea{width:100%; box-sizing: border-box;}
-select{border:1px solid black;font-size:70%;text-decoration:none;padding:0.25em 0.25em;color:white;margin:0;background-color:#5f4e4e;cursor:pointer;-webkit-appearance:none;-webkit-border-radius:0;}
-input[type=submit],input[type=button]{width: 100%;border:1px solid black;text-decoration:none;padding:0.25em 5em;color:white;background-color:#4caf50;cursor:pointer;-webkit-appearance:none;-webkit-border-radius:0;}
-input[type=button]#refresh{font-size:110%;height:90px;background-color: #336d88;}
-input[type=submit]#join{font-size:110%;height:90px;background-color: #d62929;}
+textarea{margin-left:10vw;width:80%;height:15vw; box-sizing: border-box;}
+select{border:1px solid black;font-size:70%;text-decoration:none;padding:0.25em 0.25em;color:white;margin:auto;background-color:#1fa3ec;cursor:pointer;-webkit-appearance:none;-webkit-border-radius:0.3rem;}
+input[type=submit],input[type=button]{margin-left:10vw;width:80%;height:10vw;border:1px solid black;color:white;background-color:#1fa3ec;cursor:pointer;-webkit-appearance:none;-webkit-border-radius:0.3rem;}
+input[type=button]#refresh{font-size:100%;height:10vw;background-color: #1fa3ec;-webkit-border-radius:0.3rem;}
+input[type=submit]#join{font-size:100%;height:10vw;background-color: #1fa3ec;-webkit-border-radius:0.3rem;}
 input[type=submit][disabled]{color:#aaaaaa;background-color:#eeeeee !important;}
-.networkheader{font-size:80%;font-weight:bold;margin:0.25em 0 0 0;padding:0;border-bottom:3px solid #aaa;padding-left:0.25em;}
-.networks{font-size:75%;list-style:none;margin:0.4em 0.4em;padding:0;}
-.networks li{cursor:pointer;padding:0.25em;margin-bottom:0.25em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:relative;padding-left:1.1em;}
-.networks li.secure::before{content:"🔐";position:absolute;left:0;}
-.networks li.unsecure::before{content:"🔓";position:absolute;left:0;}
-.networks li.selected{font-weight:bold;background-color:#ddd}
-.networks li:hover{background-color:#eee;}
-.networks li.other{font-size:120%;margin:0 0 1em 0;border-top: 3px solid #aaa;background-color: #aeb5b6;text-align:center;}
-.nonetworks{text-align:center;margin:1em 0;}
+.networkheader{font-size:3.5vw;width:80%;font-weight:bold;margin-left:10vw;padding:0;border-bottom:2px solid #aaa;padding-left:0em;}
+.networks{font-size:75%;list-style:none;margin:auto;padding:0;}
+.networks li{margin-left:7vw;width:80%;cursor:pointer;padding:0.25em;margin-bottom:0.25em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:relative;padding-left:1.5em;}
+.networks li.secure::before{margin-left:0.07vw;content:"🔒";}
+.networks li.unsecure::before{margin-left:0.07vw;content:"🔓";}
+.networks li.selected{background-color:#ddd}
+.networks li:hover{margin-left:10vw;width:74%;color:#000000;background-color:#eee;}
+.networks li.other{font-size:4vw;font-family:Arial;margin-left:10vw;width:72.2%;height:7vw;border:1px solid black;background-color:#1fa3ec;text-align:center;-webkit-border-radius:0.3rem;}
+.nonetworks{text-align:center;margin:auto;}
 .field{margin-bottom:0.5em;}
 .field.required label::before{content:"*";color:#277e9b;}
-.switch {position: relative; display: inline-block; width: 65px; height: 36px;}
+.switch {margin-left:11vw;position: relative; display: inline-block; width: 8vw; height: 4.5vw;}
 .switch input {opacity: 0; width: 0; height: 0;}
-.slider {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s;}
-.slider:before {position: absolute; content: ""; height: 29px; width: 29px; left: 5px; bottom: 4px; background-color: #5f4e4e; -webkit-transition: .4s;}
+.slider {position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s;-webkit-border-radius:0.3rem;}
+.slider:before {position: absolute; content: ""; height:3.5vw; width:4vw; left:0.50vw; bottom:0.5vw; background-color: #1fa3ec; -webkit-transition: .4s;-webkit-border-radius:0.3rem;}
 input:checked + .slider {background-color: #9b9b9b;}
-input:focus + .slider {box-shadow: 0 0 1px #000000;}
-input:checked + .slider:before {-webkit-transform: translateX(25px);}
-</style></head><body><div class="container"><h1>ESPH v0.0.6</h1>
+input:focus + .slider {border-color:#ffffff;}
+input:checked + .slider:before {-webkit-transform: translateX(2.80vw);}
+</style></head><body><div class="container"><h1>ESPH v0.0.7</h1>
 <form action="/settings" method="post">
 <div class="field required conf">
 <label for="conf">JSON Config:</label>
 <textarea id="conf" name="conf">
-<!-- part HTML_SETTINGS_MIDDLE --></textarea><br>
+<!-- part HTML_SETTINGS_MIDDLE --></textarea>
+<input type="button" value="Clear JSON Config" onclick="javascript:eraseText();"><br><br>
 <label class="switch"><input type="checkbox" name="reset" value="y"><span class="slider round"></input></span></label> Reset HomeKit ID<br>
 <label class="switch"><input type="checkbox" name="nowifi" value="y"><span class="slider round"></input></span></label> Remove WiFi Settings<br>
 <!-- part HTML_SETTINGS_OTA --><label class="switch"><input type="checkbox" name="ota" value="y"><span class="slider round"></input></span></label> Update all now <!-- part HTML_SETTINGS_OTAVERSION --><br>
 <label class="switch"><input type="checkbox" name="autoota" value="y" <!-- part HTML_SETTINGS_AUTOOTA -->> <span class="slider round"></input></span></label> Auto OTA Updates<br>
-<!-- part HTML_SETTINGS_POSTOTA --><label for="wifimode"> WiFi connection mode <select name="wifimode">
+<!-- part HTML_SETTINGS_POSTOTA --><label for="wifimode"> WiFi mode <select name="wifimode">
 <option value="0" <!-- part HTML_WIFI_MODE_0 -->>Normal</option>
 <option value="1" <!-- part HTML_WIFI_MODE_1 -->>Force BSSID</option>
 </select></label></div>
 <div class="nonetworks" style="display:none;">
 No networks found
 </div>
-<label class="networkheader">| ID | WiFi-SSID | (RSSI-Channel) | BSSID |</label><ul id="networks" class="networks">
+<label class="networkheader">| ID | WiFi-SSID | RSSI-CHANNEL | BSSID |</label><ul id="networks" class="networks">
 <!-- part HTML_NETWORK_ITEM -->{% for network in networks %}
-<li class="{{ network.secure | ternary('secure', 'unsecure') }}" id="{{ network.bssid }}" title="{{ network.ssid }}"> | {{ network.ssid }} | ({{ network.rssi }} Ch{{ network.channel }}) | {{ network.bssid }} |</li>
+<li class="{{ network.secure | ternary('secure', 'unsecure') }}" id="{{ network.bssid }}" title="{{ network.ssid }}">| {{ network.ssid }} | {{ network.rssi }} - Ch{{ network.channel }} | {{ network.bssid }} |</li>
 {% endfor %}
-<!-- part HTML_SETTINGS_FOOTER --><li class="other">Enter SSID manually</li>
+<!-- part HTML_SETTINGS_FOOTER --><li class="other">Enter SSID manually</li><br>
 </ul>
 <div class="field bssid" style="display:none;">
 <label for="bssid">BSSID:</label>
@@ -63,9 +66,9 @@ No networks found
 </div>
 <div class="field required password" style="display:none;">
 <label for="password">Password:</label>
-<input type="password" id="password" name="password" />
+<input type="password" id="password" name="password"/>
 </div>
-<input type="submit" class="button" id="join" value="Save" /><br><br>
+<input type="submit" class="button" id="join" value="Save"/><br><br>
 <input type="button" class="button" id="refresh" value="⟲ WiFi Networks" onClick="window.location.reload(true)"/>
 </form>
 <br>
@@ -159,5 +162,10 @@ if (password_block.classList.contains('required') && password_field.value=='')
 f=disable;
 
 f(join_button);
+}
+</script>
+<script>
+function eraseText() {
+    document.getElementById("conf").value = "";
 }
 </script></body></html>
